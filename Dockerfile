@@ -1,4 +1,4 @@
-FROM wordpress:php8.1
+FROM wordpress:php8.3-apache
 
 # Dependencies
 RUN apt-get update && apt-get install -y \
